@@ -1,0 +1,15 @@
+---
+declared-services:
+  Watson Assistant-JE:
+    label: conversation
+    plan: free
+applications:
+- name: JEBot
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - Watson Assistant-JE
+  env:
+    NPM_CONFIG_PRODUCTION: false

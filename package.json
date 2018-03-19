@@ -1,0 +1,18 @@
+{
+  "name": "jebot",
+  "version": "1.0.0",
+  "description": "A Slack Bot for Junior ISEP",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Henry MATHEISEN",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.6.12",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "watson-developer-cloud": "^3.2.1"
+  }
+}
